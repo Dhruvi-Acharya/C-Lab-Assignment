@@ -1,0 +1,14 @@
+program 1
+In a company an employee is paid as under: Along with the basic salary, the employee would be given dearness allowance of 40% of his basic salary and house rent allowance of 20% of his basic salary. If the basic salary of an employee is received as input, write a program to find his/her gross salary.
+
+void main()
+{
+    float gSalary,dAllowance,hAllownace,bSalary;
+    
+    printf("Enter basic salary\n");
+    scanf("%f",&bSalary);
+    
+    gSalary = (1+0.4+0.2)*bSalary;
+    
+    printf("%f",gSalary);
+}
