@@ -12,3 +12,7 @@ void main()
     
     printf("%f",gSalary);
 }
+
+Output:
+1203
+1924.800049
